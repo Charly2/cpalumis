@@ -268,7 +268,7 @@ a:hover {
     text-align: left;
 }
 .section3 {
-    background-color: #fff;
+   margin-top: -200px;
     height: 1228px;
 }
 .section3 h2 {
@@ -1774,7 +1774,7 @@ a:hover {
     background-image: -o-linear-gradient(#dfdfdf, #000000);
     background-image: linear-gradient(#dfdfdf, #000000);*/
     background-size: auto 768px;
-    background-color: cadetblue;
+    background-color: rgba(0, 118, 120, 0.7);
     min-height: 768px;
     height: 1000px;
 }
@@ -1836,7 +1836,7 @@ a:hover {
 .section8 .appstore1, .section8 .appstore2, .section8 .appstore3 {
     left: 32px;
     top: 180px;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    
     opacity: 0;
 }
 .section8 .description1 {
@@ -1844,8 +1844,8 @@ a:hover {
     width: 410px;
     top: 257px;
     left: 540px;
-    background: #fff;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+     background: url(../images/arrow4.png) no-repeat left center;
+    width: 440px;
     opacity: 0;
 }
 .section8 .description2 {
@@ -1853,8 +1853,8 @@ a:hover {
     width: 410px;
     top: 490px;
     left: 50px;
-    background: #fff;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    background: url(../images/arrow2.png) no-repeat right center;
+    
     opacity: 0;
 }
 .section8 .description3 {
@@ -1863,8 +1863,8 @@ a:hover {
     top: 754px;
     left: 539px;
     text-align: center;
-    background: #fff;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+     background: url(../images/arrow1.png) no-repeat left center;
+    width: 440px;
     opacity: 0;
 }
 .section8 .description3 h5 {
@@ -1873,7 +1873,7 @@ a:hover {
 .section8 .internet1, .section8 .internet2, .section8 .internet3, .section8 .internet4 {
     left: 722px;
     top: 408px;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    
     opacity: 0;
 }
 .section8 .e-appstore1, .section8 .e-appstore2, .section8 .e-appstore3 {
@@ -2143,8 +2143,13 @@ top: 678px;
 }
 .section11 {
     min-height: 400px;
-    background-color: #333;
+    
     padding-top: 85px;
+
+    background: #333 url(../images/bg-footer.png) no-repeat;
+background-size: 100%;
+background-position-x: right;
+background-position-y: bottom;
 }
 .section11 h2 {
     margin-top: 0px;
@@ -2357,12 +2362,17 @@ i.pdf-dl:before {
     content: '\e609'}
 #lumis-logo{
 	background: url(../images/logo-cpa-lumis.png);
-	margin-top: 45px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
 	width: 100%;
 	height: 130px;
+}
+
+.border-colores{
+    background: url(../images/border-colores.jpg) top center;
+    min-height: 7px;
+    width: 100%;
 }
 
 .call-to-action{
@@ -2371,7 +2381,7 @@ border-radius: 10px;
 color: #fff !important;
 padding: 10px 35px;
 font-size: 27px;
-text-shadow: 3px 2px rgba(0, 0, 0, 0.31);
+
 }
 
 .testimonial h4{
@@ -2382,7 +2392,42 @@ text-shadow: 3px 2px rgba(0, 0, 0, 0.31);
     color:#333;
     margin-bottom: 25px;
 }
+#inicio{
+    background: #999;
+     background: url(../images/bg-inicio.jpg) center center;
+    background-size: cover;
+    padding-top: 45px;
+    padding-bottom: 170px;
+}
+
 #contacto{
    width: 280px;
 margin: 80px auto;
+}
+
+#escritorio{
+    width: 727px;
+    display: block;
+    margin:80px auto;
+}
+
+#pregunta{
+    color:#007678;
+    margin: 40px 0px 140px;
+}
+#pregunta b{
+    color:#12558C;
+}
+
+#why{
+    background: url(../images/bg-1.1.png) no-repeat;
+background-size: 100%;
+background-position-x: right;
+background-position-y: bottom;
+}
+#develop{
+background: url(../images/bg-2.1.png) no-repeat;
+background-size: 100%;
+background-position-x: right;
+background-position-y: top;
 }
