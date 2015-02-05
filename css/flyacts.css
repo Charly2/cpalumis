@@ -2431,3 +2431,6 @@ background-size: 100%;
 background-position-x: right;
 background-position-y: top;
 }
+a#simple-menu {
+position: fixed;
+}
