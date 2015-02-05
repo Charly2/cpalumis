@@ -1394,17 +1394,17 @@ a:hover {
 }
 .section7 {
     background-color: #ffffff;
-    height: 1716px;
+    height: 965px;
     @-moz-document url-prefix() {
     .section7 .bg-transition {
     margin-top: 1393px;
 }
 }}.section7 h2 {
     margin-top: 0px;
-    color: #000;
+    color: #007ee5;
 }
 .section7 h5 {
-    color: #007ee5;
+    color: #000;
 }
 .section7 .punkt1 {
     position: absolute;
@@ -1558,8 +1558,8 @@ a:hover {
     width: 360px;
     position: absolute;
     top: 181px;
-    left: 71px;
-    display: none;
+    left: 615px;
+    opacity: 0;
 }
 .section7 .infotext h5 {
     text-align: left;
@@ -1587,12 +1587,12 @@ a:hover {
     cursor: pointer;
 }
 .section7 .infotext4 {
-    top: 752px;
-    width: 455px;
+    top: 770px;
+    width: auto;
     display: block;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
-    left: 38px;
+    left: 377px;
 }
 .section7 .infotext4 h5 {
     text-align: right;
@@ -1717,15 +1717,15 @@ a:hover {
     background-image: linear-gradient(#ffffff, #dfdfdf);
 }
 .section8 {
-    background-image: -webkit-gradient(linear,  50% 0%,  50% 100%,  color-stop(0%,  #dfdfdf),  color-stop(100%,  #000000));
+/*    background-image: -webkit-gradient(linear,  50% 0%,  50% 100%,  color-stop(0%,  #dfdfdf),  color-stop(100%,  #000000));
     background-image: -webkit-linear-gradient(#dfdfdf, #000000);
     background-image: -moz-linear-gradient(#dfdfdf, #000000);
     background-image: -o-linear-gradient(#dfdfdf, #000000);
-    background-image: linear-gradient(#dfdfdf, #000000);
+    background-image: linear-gradient(#dfdfdf, #000000);*/
     background-size: auto 768px;
-    background-color: #C1C0C5;
+    background-color: cadetblue;
     min-height: 768px;
-    height: 740px;
+    height: 1000px;
 }
 .section8 h2 {
     margin-top: 40px;
@@ -1763,14 +1763,14 @@ a:hover {
 .section8 .line3 {
     width: 0px;
     height: 2px;
-    top: 445px;
+    top: 537px;
     left: 512px;
     margin: 0;
 }
 .section8 .line4 {
-    width: 120px;
+    width: 190px;
     height: 2px;
-    top: 579px;
+    top: 807px;
     left: 513px;
     margin: 0;
 }
@@ -1784,32 +1784,35 @@ a:hover {
     -ms-filter: "FlipH"}
 .section8 .appstore1, .section8 .appstore2, .section8 .appstore3 {
     left: 32px;
-    top: 160px;
+    top: 180px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
 }
 .section8 .description1 {
     position: absolute;
-    width: 100px;
-    top: 287px;
-    left: 120px;
+    width: 410px;
+    top: 257px;
+    left: 540px;
+    background: #fff;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
 }
 .section8 .description2 {
     position: absolute;
-    width: 100px;
-    top: 428px;
-    left: 767px;
+    width: 410px;
+    top: 490px;
+    left: 50px;
+    background: #fff;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
 }
 .section8 .description3 {
     position: absolute;
-    width: 100px;
-    top: 553px;
-    left: 299px;
+    width: 410px;
+    top: 754px;
+    left: 539px;
     text-align: center;
+    background: #fff;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
 }
@@ -1818,13 +1821,13 @@ a:hover {
 }
 .section8 .internet1, .section8 .internet2, .section8 .internet3, .section8 .internet4 {
     left: 722px;
-    top: 160px;
+    top: 408px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
 }
 .section8 .e-appstore1, .section8 .e-appstore2, .section8 .e-appstore3 {
-    left: 222px;
-    top: 478px;
+    left: 92px;
+top: 678px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
 }
@@ -2309,4 +2312,26 @@ i.pdf-dl:before {
 	background-size: contain;
 	width: 100%;
 	height: 130px;
+}
+
+.call-to-action{
+   background: rgb(143, 197, 71) !important;
+border-radius: 10px;
+color: #fff !important;
+padding: 10px 35px;
+font-size: 27px;
+text-shadow: 3px 2px rgba(0, 0, 0, 0.31);
+}
+
+.testimonial h4{
+    margin-bottom: 0px;
+}
+
+.testimonial h5{
+    color:#333;
+    margin-bottom: 25px;
+}
+#contacto{
+   width: 280px;
+margin: 80px auto;
 }
