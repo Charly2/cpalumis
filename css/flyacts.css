@@ -352,14 +352,14 @@ a:hover {
     height: 2px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
-    top: 440px;
+    top: 490px;
     left: 961px;
     margin: 0;
 }
 .section3 .line5 {
     width: 2px;
     height: 0px;
-    top: 442px;
+    top: 492px;
     margin: 0;
     right: 861px;
     left: auto;
@@ -371,7 +371,7 @@ a:hover {
     height: 2px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
-    top: 804px;
+    top: 1054px;
     left: 961px;
 }
 .section3 .line7 {
@@ -386,7 +386,7 @@ a:hover {
 .section3 .line8 {
     width: 2px;
     height: 0px;
-    top: 564px;
+    top: 664px;
     left: 897px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
@@ -396,7 +396,7 @@ a:hover {
     height: 2px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
-    top: 562px;
+    top: 662px;
     left: 161px;
     margin: 0;
 }
@@ -439,7 +439,7 @@ a:hover {
     left: auto;
 }
 .section3 .text1, .section3 .text2, .section3 .text3 {
-    top: 168px;
+    top: 135px;
     left: 210px;
     text-align: right;
     width: 280px;
@@ -447,46 +447,64 @@ a:hover {
 .section3 .anzeigepunkt1, .section3 .anzeigepunkt2, .section3 .anzeigepunkt3, .section3 .anzeigepunkt4, .section3 .anzeigepunkt5, .section3 .anzeigepunkt6, .section3 .anzeigepunkt-legend {
     position: absolute;
     top: 97px;
-    right: 506px;
+    right: 860px;
 }
 .section3 .anzeigepunkt4, .section3 .anzeigepunkt5, .section3 .anzeigepunkt6 {
     position: absolute;
-    top: 435px;
+    top: 485px;
     right: 506px;
 }
 .section3 .anzeigepunkt4 {
-    top: 435px;
-    right: 220px;
+    top: 485px;
+    right: 163px;
 }
 .section3 .anzeigepunkt5 {
-    top: 435px;
+    top: 485px;
     right: 220px;
 }
 .section3 .anzeigepunkt6 {
-    top: 435px;
+    top: 485px;
     right: 510px;
 }
 .section3 .device1 {
     position: absolute;
-    top: 220px;
-    right: 90px;
-    width: 275px;
+    top: 274px;
+    right: 106px;
+    width: 172px;
 }
 .section3 .device2 {
     position: absolute;
-    top: 230px;
-    right: 470px;
-    width: 90px;
+    top: 216px;
+    right: 372px;
+    width: 183px;
 }
 .section3 .device3 {
     position: absolute;
-    top: 253px;
-    right: 660px;
-    width: 60px;
+    top: 279px;
+    right: 673px;
+    width: 159px;
+}
+.section3 .device4 {
+    position: absolute;
+    top: 772px;
+    right: 107px;
+    width: 175px;
+}
+.section3 .device5 {
+    position: absolute;
+    top: 837px;
+    right: 414px;
+    width: 140px;
+}
+.section3 .device6 {
+    position: absolute;
+    top: 842px;
+    right: 706px;
+    width: 168px;
 }
 .section3 .number1 {
     position: absolute;
-    top: 355px;
+    top: 405px;
     right: 178px;
     width: 100px;
     font-size: 300%;
@@ -496,8 +514,8 @@ a:hover {
 }
 .section3 .number1b {
     position: absolute;
-    top: 359px;
-    right: 214px;
+    top: 418px;
+    right: 155px;
     width: 100px;
     font-size: 300%;
     color: #000;
@@ -516,8 +534,8 @@ a:hover {
 }
 .section3 .number2b {
     position: absolute;
-    top: 359px;
-    right: 504px;
+    top: 418px;
+    right: 437px;
     width: 100px;
     font-size: 300%;
     color: #000;
@@ -536,8 +554,8 @@ a:hover {
 }
 .section3 .number3b {
     position: absolute;
-    top: 359px;
-    right: 680px;
+    top: 418px;
+    right: 739px;
     width: 100px;
     font-size: 300%;
     color: #000;
@@ -549,24 +567,24 @@ a:hover {
 }
 .section3 .number1-description {
     position: absolute;
-    top: 410px;
-    right: 187px;
+    top: 470px;
+    right: 127px;
     width: 60px;
     font-size: 60%;
     color: #000;
 }
 .section3 .number2-description {
     position: absolute;
-    top: 410px;
-    right: 475px;
+    top: 470px;
+    right: 410px;
     width: 60px;
     font-size: 60%;
     color: #000;
 }
 .section3 .number3-description {
     position: absolute;
-    top: 410px;
-    right: 648px;
+    top: 470px;
+    right: 710px;
     width: 60px;
     font-size: 60%;
     color: #000;
@@ -620,8 +638,8 @@ a:hover {
     z-index: 10;
 }
 .section3 .bubble-txt1 {
-    top: 527px;
-    left: 107px;
+    top: 619px;
+    left: 180px;
     position: absolute;
     text-align: center;
     color: #fff;
@@ -651,8 +669,8 @@ a:hover {
     z-index: 8;
 }
 .section3 .bubble-txt2 {
-    top: 526px;
-    left: 394px;
+    top: 628px;
+    left: 480px;
     position: absolute;
     text-align: center;
     color: #fff;
@@ -682,8 +700,8 @@ a:hover {
     z-index: 6;
 }
 .section3 .bubble-txt3 {
-    top: 528px;
-    left: 748px;
+    top: 640px;
+    left: 765px;
     position: absolute;
     text-align: center;
     color: #fff;
@@ -872,15 +890,15 @@ a:hover {
     top: 258px;
 }
 .section3 .anzeigepunkt3 {
-    top: 1163px;
+    top: 1049px;
 }
 .section3 .anzeigepunkt-legend {
     top: 799px;
     left: 156px;
 }
 .section3 .text3 {
-    top: 1147px;
-    left: 530px;
+    top: 1066px;
+    left: 103px;
     text-align: left;
     width: 300px;
 }
