@@ -18,6 +18,7 @@
 
     <!--Scrollplugin -->
     <script type="text/javascript" src="js/_dependent/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sidr.min.js"></script>
     <script type="text/javascript" src="js/jquery.scrollmagic.js"></script>
     <script type="text/javascript" src="js/_dependent/greensock/TweenMax.min.js"></script>
     <script type="text/javascript" src="js/_dependent/greensock/plugins/ScrollToPlugin.min.js"></script>
@@ -33,6 +34,7 @@
     <!--CSS -->
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/flyacts.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.sidr.light.css" type="text/css">
 
 
 
@@ -143,6 +145,22 @@
 
         </section> -->
         <div class="border-colores"></div>
+        <a style="color:#000;"id="simple-menu" href="#sidr">Toggle menu</a>
+             
+            <div id="sidr">
+              <!-- Your content -->
+              <ul>
+                <li><a href="#">List 1</a></li>
+                <li class="active"><a href="#">List 2</a></li>
+                <li><a href="#">List 3</a></li>
+              </ul>
+            </div>
+             
+            <script>
+            $(document).ready(function() {
+              $('#simple-menu').sidr();
+            });
+            </script>
 		<section id="inicio">
 			<div id="lumis-logo"></div>
             <img id="escritorio" src="images/escritorio.png" alt="">

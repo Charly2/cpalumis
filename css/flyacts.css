@@ -2421,17 +2421,19 @@ margin: 80px auto;
 
 #why{
     background: url(../images/bg-1.1.png) no-repeat;
-background-size: 100%;
-background-position-x: right;
-background-position-y: bottom;
+    background-size: 100%;
+    background-position-x: right;
+    background-position-y: bottom;
 }
 #develop{
-background: url(../images/bg-2.1.png) no-repeat;
-background-size: 100%;
-background-position-x: right;
-background-position-y: top;
-<<<<<<< HEAD
+    background: url(../images/bg-2.1.png) no-repeat;
+    background-size: 100%;
+    background-position-x: right;
+    background-position-y: top;
+
 }
-=======
+
+a#simple-menu {
+    position: fixed;
 }
->>>>>>> FETCH_HEAD
+
