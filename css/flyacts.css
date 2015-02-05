@@ -3,7 +3,7 @@
     src: url('../fonts/flypictos.woff') format('woff'),  url('../fonts/flypictos.ttf') format('truetype'),  url('http://www.flyacts.com/multi-channel-app/fonts/flypictos.svg') format('svg');
 }
 * {
-    font-family: 'Raleway',  Arial;
+    font-family: 'Roboto',  sans-serif;
     color: #000;
     font-weight: 500;
 }
@@ -371,7 +371,7 @@ a:hover {
     height: 2px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
-    top: 1054px;
+    top: 1064px;
     left: 961px;
 }
 .section3 .line7 {
@@ -444,7 +444,7 @@ a:hover {
     text-align: right;
     width: 280px;
 }
-.section3 .anzeigepunkt1, .section3 .anzeigepunkt2, .section3 .anzeigepunkt3, .section3 .anzeigepunkt4, .section3 .anzeigepunkt5, .section3 .anzeigepunkt6, .section3 .anzeigepunkt-legend {
+.section3 .anzeigepunkt1, .section3 .anzeigepunkt2, .section3 .anzeigepunkt3, .section3 .anzeigepunkt4, .section3 .anzeigepunkt5, .section3 .anzeigepunkt6,.section3 .anzeigepunkt7,.section3 .anzeigepunkt8, .section3 .anzeigepunkt-legend {
     position: absolute;
     top: 97px;
     right: 860px;
@@ -464,6 +464,14 @@ a:hover {
 }
 .section3 .anzeigepunkt6 {
     top: 485px;
+    right: 510px;
+}
+.section3 .anzeigepunkt7 {
+    top: 1059px;
+    right: 510px;
+}
+.section3 .anzeigepunkt8 {
+    top: 1059px;
     right: 510px;
 }
 .section3 .device1 {
@@ -567,26 +575,50 @@ a:hover {
 }
 .section3 .number1-description {
     position: absolute;
-    top: 470px;
-    right: 127px;
-    width: 60px;
-    font-size: 60%;
+    top: 421px;
+    right: 86px;
+    width: 179px;
+    font-size: 85%;
     color: #000;
 }
 .section3 .number2-description {
     position: absolute;
-    top: 470px;
-    right: 410px;
-    width: 60px;
-    font-size: 60%;
+    top: 421px;
+    right: 345px;
+    width: 223px;
+    font-size: 85%;
     color: #000;
 }
 .section3 .number3-description {
     position: absolute;
-    top: 470px;
-    right: 710px;
-    width: 60px;
-    font-size: 60%;
+    top: 421px;
+    right: 641px;
+    width: 211px;
+    font-size: 85%;
+    color: #000;
+}
+.section3 .number4-description {
+    position: absolute;
+    top: 984px;
+    right: 87px;
+    width: 187px;
+    font-size: 85%;
+    color: #000;
+}
+.section3 .number5-description {
+    position: absolute;
+    top: 984px;
+    right: 388px;
+    width: 171px;
+    font-size: 85%;
+    color: #000;
+}
+.section3 .number6-description {
+    position: absolute;
+    top: 984px;
+    right: 665px;
+    width: 224px;
+    font-size: 85%;
     color: #000;
 }
 .section3 .number-button1 {
@@ -638,12 +670,12 @@ a:hover {
     z-index: 10;
 }
 .section3 .bubble-txt1 {
-    top: 619px;
-    left: 180px;
+    top: 627px;
+    left: 189px;
     position: absolute;
     text-align: center;
     color: #fff;
-    font-size: 70%;
+    font-size: 90%;
     z-index: 11;
 }
 .section3 .bubble-txt1 b {
@@ -669,12 +701,12 @@ a:hover {
     z-index: 8;
 }
 .section3 .bubble-txt2 {
-    top: 628px;
+    top: 631px;
     left: 480px;
     position: absolute;
     text-align: center;
     color: #fff;
-    font-size: 68%;
+    font-size: 92%;
     z-index: 9;
 }
 .section3 .bubble-txt2 b {
@@ -700,12 +732,12 @@ a:hover {
     z-index: 6;
 }
 .section3 .bubble-txt3 {
-    top: 640px;
-    left: 765px;
+    top: 641px;
+    left: 754px;
     position: absolute;
     text-align: center;
     color: #fff;
-    font-size: 70%;
+    font-size: 93%;
     z-index: 7;
 }
 .section3 .bubble-txt3 b {
@@ -890,14 +922,14 @@ a:hover {
     top: 258px;
 }
 .section3 .anzeigepunkt3 {
-    top: 1049px;
+    top: 1059px;
 }
 .section3 .anzeigepunkt-legend {
     top: 799px;
     left: 156px;
 }
 .section3 .text3 {
-    top: 1066px;
+    top: 1076px;
     left: 103px;
     text-align: left;
     width: 300px;
@@ -1256,6 +1288,7 @@ a:hover {
     top: 568px;
     left: 390px;
 }
+
 .section5 .line7a {
     position: absolute;
     top: 566px;
@@ -2397,4 +2430,8 @@ background: url(../images/bg-2.1.png) no-repeat;
 background-size: 100%;
 background-position-x: right;
 background-position-y: top;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> FETCH_HEAD
