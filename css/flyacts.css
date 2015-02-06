@@ -345,7 +345,7 @@ a:hover {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     top: 190px;
-    left: 896px;
+    left: -700px;
 }
 .section3 .line4 {
     width: 0px;
@@ -353,7 +353,7 @@ a:hover {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     top: 490px;
-    left: 961px;
+    left: 161px;
     margin: 0;
 }
 .section3 .line5 {
@@ -361,18 +361,18 @@ a:hover {
     height: 0px;
     top: 492px;
     margin: 0;
-    right: 861px;
-    left: auto;
+    left: 959px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
 }
 .section3 .line6 {
-    width: 800px;
+    width: 0px;
     height: 2px;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
     top: 1064px;
-    left: 961px;
+    left: 161px;
+    margin: 0;
 }
 .section3 .line7 {
     width: 2px;
@@ -387,7 +387,7 @@ a:hover {
     width: 2px;
     height: 0px;
     top: 664px;
-    left: 897px;
+    left: -700px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
 }
@@ -397,7 +397,7 @@ a:hover {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     top: 662px;
-    left: 161px;
+    left: 961px;
     margin: 0;
 }
 .section3 .line10 {
@@ -447,7 +447,8 @@ a:hover {
 .section3 .anzeigepunkt1, .section3 .anzeigepunkt2, .section3 .anzeigepunkt3, .section3 .anzeigepunkt4, .section3 .anzeigepunkt5, .section3 .anzeigepunkt6,.section3 .anzeigepunkt7,.section3 .anzeigepunkt8, .section3 .anzeigepunkt-legend {
     position: absolute;
     top: 97px;
-    right: 860px;
+    right: 177px;
+    
 }
 .section3 .anzeigepunkt4, .section3 .anzeigepunkt5, .section3 .anzeigepunkt6 {
     position: absolute;
@@ -456,15 +457,15 @@ a:hover {
 }
 .section3 .anzeigepunkt4 {
     top: 485px;
-    right: 163px;
+    right: 720px;
 }
 .section3 .anzeigepunkt5 {
     top: 485px;
-    right: 220px;
+    right: 510px;
 }
 .section3 .anzeigepunkt6 {
     top: 485px;
-    right: 510px;
+    right:446px ;
 }
 .section3 .anzeigepunkt7 {
     top: 1059px;
@@ -477,7 +478,7 @@ a:hover {
 .section3 .device1 {
     position: absolute;
     top: 274px;
-    right: 106px;
+    right: 660px;
     width: 172px;
 }
 .section3 .device2 {
@@ -489,13 +490,13 @@ a:hover {
 .section3 .device3 {
     position: absolute;
     top: 279px;
-    right: 673px;
+    right: 92px;
     width: 159px;
 }
 .section3 .device4 {
     position: absolute;
     top: 772px;
-    right: 107px;
+    right: 667px;
     width: 175px;
 }
 .section3 .device5 {
@@ -507,7 +508,7 @@ a:hover {
 .section3 .device6 {
     position: absolute;
     top: 842px;
-    right: 706px;
+   right: 80px;
     width: 168px;
 }
 .section3 .number1 {
@@ -576,7 +577,7 @@ a:hover {
 .section3 .number1-description {
     position: absolute;
     top: 421px;
-    right: 86px;
+    right: 646px;
     width: 179px;
     font-size: 85%;
     color: #000;
@@ -592,7 +593,7 @@ a:hover {
 .section3 .number3-description {
     position: absolute;
     top: 421px;
-    right: 641px;
+    right: 60px;
     width: 211px;
     font-size: 85%;
     color: #000;
@@ -600,7 +601,7 @@ a:hover {
 .section3 .number4-description {
     position: absolute;
     top: 984px;
-    right: 87px;
+  right: 637px;
     width: 187px;
     font-size: 85%;
     color: #000;
@@ -616,7 +617,7 @@ a:hover {
 .section3 .number6-description {
     position: absolute;
     top: 984px;
-    right: 665px;
+    right: 70px;
     width: 224px;
     font-size: 85%;
     color: #000;
@@ -664,14 +665,14 @@ a:hover {
 .section3 .bubble1 {
     position: absolute;
     top: 555px;
-    right: 856px;
+    right:76px;
     width: 0px;
     height: 0px;
     z-index: 10;
 }
 .section3 .bubble-txt1 {
-    top: 627px;
-    left: 189px;
+    top: 620px;
+left: 759px;
     position: absolute;
     text-align: center;
     color: #fff;
@@ -733,12 +734,12 @@ a:hover {
 }
 .section3 .bubble-txt3 {
     top: 641px;
-    left: 754px;
+    left: 189px;
     position: absolute;
     text-align: center;
     color: #fff;
     font-size: 93%;
-    z-index: 7;
+   z-index: 17;
 }
 .section3 .bubble-txt3 b {
     font-size: 120%}
@@ -930,7 +931,7 @@ a:hover {
 }
 .section3 .text3 {
     top: 1095px;
-    left: 103px;
+    left: 387px;
     text-align: left;
     width: 300px;
 }
@@ -2150,8 +2151,10 @@ top: 678px;
 
     background: #333 url(../images/bg-footer.png) no-repeat;
 background-size: 100%;
+
 background-position-x: right;
 background-position-y: bottom;
+background-position:right bottom;
 }
 .section11 h2 {
     margin-top: 0px;
@@ -2426,12 +2429,14 @@ margin: 80px auto;
     background-size: 100%;
     background-position-x: right;
     background-position-y: bottom;
+    background-position:right bottom;
 }
 #develop{
     background: url(../images/bg-2.1.png) no-repeat;
     background-size: 100%;
     background-position-x: right;
     background-position-y: top;
+    background-position:right top;
 
 }
 
@@ -2440,14 +2445,14 @@ margin: 80px auto;
 /* Button */
     .button {
       display: inline-block;
-      position: relative;
-      width: 120px;
-      height: 32px;
-      line-height: 32px;
-      border-radius: 2px;
-      font-size: 0.9em;
-      background-color: #fff;
-      color: #646464;
+        position: relative;
+        line-height: 23px;
+        border-radius: 2px;
+        font-size: 0.9em;
+        background-color: #FFF;
+        color: #fff;
+        padding: 8px 21px;
+        font-size: 22px;
     }
     
     .button > paper-ripple {
@@ -2469,7 +2474,7 @@ margin: 80px auto;
     }
     
     .button.green {
-      background-color: #0f9d58;
+      background-color: #6DA522;
       color: #fff;
     }
     
@@ -2635,6 +2640,10 @@ margin: 80px auto;
       color: #d23f31; 
     }
 
+    .center{
+        color:white;
+    }
+
 #simple-menu {
     position: fixed;
    margin-top: 25px;
@@ -2642,6 +2651,27 @@ margin: 80px auto;
     color:white !important;
 }
 
+#call1{
+width: 240px;
+height: 40px;
+position: absolute;
+top: 1100px;
+left: 370px;
+opacity: 0;
+}
+
+#call2{
+width: 140px;
+height: 30px;
+position: absolute;
+top: 840px;
+left: 419px;
+}
+
+.textocall1{
+    color:white !important;
+    margin-top: -3px !important;
+}
 
 .sidr ul li.active a{
     border-left: 8px solid #08BACE;
