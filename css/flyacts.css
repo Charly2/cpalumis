@@ -1,6 +1,10 @@
-@font-face {
+/*@font-face {
     font-family: "flypictos";
     src: url('../fonts/flypictos.woff') format('woff'),  url('../fonts/flypictos.ttf') format('truetype'),  url('http://www.flyacts.com/multi-channel-app/fonts/flypictos.svg') format('svg');
+}*/
+@font-face {
+    font-family: "flypictos";
+    src: url('../fonts/fontawesome-webfont.woff') format('woff'),  url('../fonts/fontawesome-webfont.ttf') format('truetype'),  url('http://www.flyacts.com/multi-channel-app/fonts/flypictos.svg') format('svg');
 }
 * {
     font-family: 'Roboto',  sans-serif;
@@ -35,9 +39,18 @@ h3 {
     margin: 1em 0;
 }
 h4 {
-    font-size: 120%;
+    font-size: 100%;
     font-weight: 300;
-    margin: 1.5em 0;
+    margin: 0.5em 0;
+}
+b.pod {
+    color:#08BACE;
+}
+b.man {
+    color:#8DC63F;
+}
+b.seg {
+    color:#12558B;
 }
 h5 {
     font-size: 100%;
@@ -1603,7 +1616,7 @@ left: 759px;
 }
 .section7 .punkt3 {
     position: absolute;
-    top: 763px;
+    top: 845px;
     left: 0;
     right: 0;
     margin: 0 auto 0 auto;
@@ -1629,30 +1642,30 @@ left: 759px;
     color: #e64c66;
 }
 .section7 .infotext1 {
-    top: 199px;
+    top: 190px;
 }
 .section7 .infotext2 {
-    top: 378px;
+    top: 413px;
 }
 .section7 .infotext3 {
-    top: 554px;
+    top: 635px;
 }
 .section7 .infotext1:hover, .section7 .infotext2:hover, .section7 .infotext3:hover, .section7 .infotext8:hover, .section7 .infotext9:hover {
     cursor: pointer;
 }
 .section7 .infotext4 {
-    top: 770px;
+    top: 875px;
     width: auto;
     display: block;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
-    left: 377px;
+    left: 287px;
 }
 .section7 .infotext4 h5 {
-    text-align: right;
+    text-align: center;
 }
 .section7 .infotext4 p {
-    text-align: right;
+    text-align: center;
 }
 .section7 .minibubble {
     position: absolute;
@@ -2145,7 +2158,7 @@ top: 678px;
     left: 697px;
 }
 .section11 {
-    min-height: 400px;
+    min-height: 360px;
     
     padding-top: 85px;
 
@@ -2281,6 +2294,7 @@ background-position:right bottom;
     margin: 1em 0 1em 0;
     line-height: 3em;
     text-align: center;
+    margin-top: 120px;
 }
 .social i:before {
     color: #000;
@@ -2289,7 +2303,7 @@ background-position:right bottom;
     padding: 0 0.3em 0 0.3em;
 }
 .social i.icon:hover:before {
-    color: #1bbc9b;
+    color: #08BACE;
     transition: color 0.95s;
 }
 .social i.icon.facebook-circle:hover:before {
@@ -2328,6 +2342,7 @@ i.icon:before {
     color: #fff;
     font-size: 3.2em;
     font-style: normal;
+    margin: 10px;
 }
 i.logo-lines-thin:before {
     content: '\e610'}
@@ -2653,7 +2668,7 @@ margin: 80px auto;
 
 #call1{
 width: 240px;
-height: 40px;
+height: 44px;
 position: absolute;
 top: 1100px;
 left: 370px;
@@ -2661,11 +2676,18 @@ opacity: 0;
 }
 
 #call2{
-width: 140px;
-height: 30px;
+width: 190px;
+height: 43px;
 position: absolute;
 top: 840px;
-left: 419px;
+left: 397px;
+}
+#call3{
+width: 190px;
+height: 21px;
+position: absolute;
+top: -85px;
+left: 397px;
 }
 
 .textocall1{
