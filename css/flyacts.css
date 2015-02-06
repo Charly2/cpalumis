@@ -2690,6 +2690,13 @@ top: -85px;
 left: 397px;
 }
 
+.hamburger{
+    color: white !important;
+    text-align: center;
+    margin: 24px;
+font-size: 23px;
+}
+
 .textocall1{
     color:white !important;
     margin-top: -3px !important;
