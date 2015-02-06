@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="css/flyacts.css" type="text/css">
     <link rel="stylesheet" href="css/jquery.sidr.light.css" type="text/css">
 
-
+    
 
 </head>
 <body>
@@ -144,8 +144,19 @@
             </script>
 
         </section> -->
+
         <div class="border-colores"></div>
-        <a style="color:#000;"id="simple-menu" href="#sidr">Toggle menu</a>
+       
+          <link rel="import" href="http://www.polymer-project.org/components/paper-ripple/paper-ripple.html">
+         <link rel="import" href="http://www.polymer-project.org/components/core-icons/core-icons.html">
+        <link rel="import" href="http://www.polymer-project.org/components/font-roboto/roboto.html">
+  
+        <div id="simple-menu" href="#sidr" class="fab green">
+          <core-icon  style="color: white;" icon="menu"></core-icon>
+          <paper-ripple class="circle recenteringTouch" fit></paper-ripple>
+        </div>
+        
+
              
             <div id="sidr">
               <!-- Your content -->
@@ -603,7 +614,7 @@
                             .addTo(controller);
 
                     // show indicators (requires debug extension)
-                    scene.addIndicators();
+                    //scene.addIndicators();
                 });
             </script>
 
