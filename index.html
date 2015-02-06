@@ -155,7 +155,7 @@
   
         <div id="simple-menu" href="#sidr" class="fab green">
           <core-icon  style="color: white;" icon="menu"></core-icon>
-          <paper-ripple class="circle recenteringTouch" fit></paper-ripple>
+          <paper-ripple style="color: white;" class="circle recenteringTouch" fit></paper-ripple>
         </div>
         
 
@@ -275,7 +275,13 @@
 
                 <!-- Multiscreen usage -->
                 <img src="images/dunkelblau_anzeige.png" class="anzeigepunkt3 alpha-in" style="width:12px;" alt="Punkt" />
-                <div class="text3 text alpha-in"><a class="call-to-action" href="#">¡CONTRATA YA!</a></div>
+            
+                <div id="call1" class="button raised green">
+                  <a href="">
+                    <p class="textocall1">RESUELVE TODOS TUS <br> PROBELMAS FISCALES</p>
+                    <paper-ripple fit style="color:white;"></paper-ripple>
+                  </a>
+                </div>
                 <div id="trigger6" class="spacer s0"></div>
 
                 <!-- Pyramids -->
@@ -368,8 +374,9 @@
                     })
 
                     // build Line---------------------------------
-                    TweenMax.set(".section3 .line4", {scaleX: 0.001, transformOrigin: "0 50%"}); // rotate scale line to 0
-                    TweenMax.set(".section3 .line6", {scaleX: 0.001, transformOrigin: "0 50%"}); // rotate scale line to 0
+                     TweenMax.set(".section3 .line2", {scaleX: 0.001, transformOrigin: "0 50%"}); // rotate scale line to 0
+                    //TweenMax.set(".section3 .line4", {scaleX: 0.001, transformOrigin: "0 50%"}); // rotate scale line to 0
+                    TweenMax.set(".section3 .line9", {scaleX: 0.001, transformOrigin: "0 50%"}); // rotate scale line to 0
                     TweenMax.set(".section3 .line10", {rotation:119, scaleX:0.001, transformOrigin:"0 50%"}); // rotate and scale line to 0
                     TweenMax.set(".section3 .line11", {rotation:22, scaleX:0.001, transformOrigin:"0 50%"}); // rotate and scale line to 0
                     TweenMax.set(".section3 .line12", {rotation:-23, scaleX:0.001, transformOrigin:"0 50%"}); // rotate and scale line to 0
@@ -382,15 +389,13 @@
                             .add(TweenMax.to(".section3 .punkt1", 0.3, {height: "30px", width: "30px"}))
                             .add(TweenMax.to(".section3 .line1", 0.2, {height: "70px"}))
                             .add(TweenMax.to(".section3 .line2", 0.01, {css:{opacity:1}}))
-                            .add(TweenMax.to(".section3 .line2", 0.7, {width: "450px", ease: Linear.easeNone}))
+                            .add(TweenMax.to(".section3 .line2", 0.7, {scaleX: -1, width: "350px", ease: Linear.easeNone}))
                             .add(TweenMax.to(".section3 .line3", 0.4, {height: "300px", ease: Linear.easeNone}))
-                            .add(TweenMax.to(".section3 .line4", 0.8, {scaleX: -1,width: "800px", ease: Linear.easeNone}))
+                            .add(TweenMax.to(".section3 .line4", 0.8, {width: "800px", ease: Linear.easeNone}))
                             .add(TweenMax.to(".section3 .line5", 0.3, {height: "170px"}))
                             .add(TweenMax.to(".section3 .line9", 0.01, {css:{opacity:1}}))
-                            .add(TweenMax.to(".section3 .line9", 0.8, {width: "800px", ease: Linear.easeNone}))
-                            .add(TweenMax.to(".section3 .line8", 0.2, {height: "400px"}))
-                            .add(TweenMax.to(".section3 .line6", 0.01, {css:{opacity:1}}))
-                            .add(TweenMax.to(".section3 .line6", 0.4, {scaleX: -1, ease: Linear.easeNone}))
+                            .add(TweenMax.to(".section3 .line9", 0.8, {scaleX: -1,width: "800px", ease: Linear.easeNone}))
+                            
                             .add(TweenMax.to(".section3 .line7", 0.2, {height: "82px"}))
                             .add(TweenMax.to(".section3 .line10", 0.01, {css:{opacity:1}}))
                             .add(TweenMax.to(".section3 .line10", 0.2, {scaleX:1, ease: Linear.easeNone}))
@@ -420,7 +425,7 @@
                             .add(TweenMax.to(".section3 .anzeigepunkt5", 0.05, {css:{opacity:1}}))
                             .add(TweenMax.to(".section3 .anzeigepunkt5", 0.1, {css:{right:446}}))
                             .add(TweenMax.to(".section3 .anzeigepunkt6", 0.2, {css:{opacity:1}, delay: 0.5}))
-                            .add(TweenMax.to(".section3 .anzeigepunkt6", 0.1, {css:{right:748}}))
+                            .add(TweenMax.to(".section3 .anzeigepunkt6", 0.1, {css:{right:163}}))
                             // .add(TweenMax.to(".section3 .anzeigepunkt7", 0.1, {css:{opacity:1},delay:0.5}))
                             // .add(TweenMax.to(".section3 .anzeigepunkt7", 0.1, {css:{right:477}}))
 
@@ -478,7 +483,7 @@
                     var bubble_tween = new TimelineMax()
                         //Show points and line
                             .add(TweenMax.to(".section3 .bubble1", 0.01, {css:{opacity:1}}))
-                            .add(TweenMax.to(".section3 .bubble1", 0.5, {top:"560px", right: "647px", width: "210px", height: "210px"}))
+                            .add(TweenMax.to(".section3 .bubble1", 0.5, {top:"560px", right: "76px", width: "210px", height: "210px"}))
                             .add(TweenMax.to(".section3 .bubble-txt1", 0.5, {css:{opacity:1}}))
 
                             .add(TweenMax.to(".section3 .bubble2", 0.01, {css:{opacity:1}}))
@@ -486,11 +491,13 @@
                             .add(TweenMax.to(".section3 .bubble-txt2", 0.5, {css:{opacity:1}}))
 
                             .add(TweenMax.to(".section3 .bubble3", 0.01, {css:{opacity:1}}))
-                            .add(TweenMax.to(".section3 .bubble3", 1, {top:"560px", right: "76px", width: "210px", height: "210px"}))
+                            .add(TweenMax.to(".section3 .bubble3", 1, {top:"560px", right: "647px", width: "210px", height: "210px"}))
                             .add(TweenMax.to(".section3 .bubble-txt3", 0.5, {css:{opacity:1}}))
 
+                            .add(TweenMax.to(".section3 .line8", 0.2, {height: "400px"}))
+                            .add(TweenMax.to(".section3 .line6", 0.9, { width: "800px",  ease: Linear.easeNone}))
 
-                            .add(TweenMax.to(".section3 .anzeigepunkt8", 0.5, {css:{right:177}}))
+                            .add(TweenMax.to(".section3 .anzeigepunkt8", 0.5, {css:{right:747}}))
                             .add(TweenMax.to(".section3 .anzeigepunkt8", 0.5, {css:{opacity:1}}))
                             .add(TweenMax.to(".section3 .device4", 0.3, {css:{opacity:1}}))
                             .add(TweenMax.to(".section3 .number4-description", 0.1, {css:{opacity:1}}))
@@ -502,7 +509,7 @@
                             .add(TweenMax.to(".section3 .number6-description", 0.1, {css:{opacity:1}}))
 
                             .add(TweenMax.to(".section3 .anzeigepunkt3", 0.3, {css:{opacity:1}, delay: 0.3}))
-                            .add(TweenMax.to(".section3 .text3", 0.5, {css:{opacity:1}, delay: 0.1}));
+                            .add(TweenMax.to(".section3 #call1", 0.5, {css:{opacity:1}, delay: 0.1}));
 
 
                     // build scene
@@ -708,11 +715,15 @@
                     <p>· Con <b class="seg">CPA LUMIS</b> los archivos fiscales de tu empresa estarán seguros y tendrás acceso a ellos en el momento en que lo desees</p>
                     <p>· ¡No te expongas! Cuida la privacidad de tus procesos fiscales. Contrata <b class="seg">CPA LUMIS</b></p>
                 </div>
-                <div class="infotext4 infotext">
-                    <a class="call-to-action" href="https://www.google.com.mx/?gws_rd=ssl">¡PRUEBA NUESTROS SERVICIOS!</a>
-                    
-                    
+
+                <div id="call2" class="button raised green infotext4">
+                  <a href="">
+                    <p class="textocall1">¡PRUEBA NUESTROS SERVICIOS!</p>
+                    <paper-ripple fit style="color:white;"></paper-ripple>
+                  </a>
                 </div>
+
+               
                 <div class="minibubble minibubble5 ionic" rel="5" />Ionic</div>
                 <div  class="minibubble minibubble6 angular" rel="6"  />Angular<br />JS</div>
                 <div  class="minibubble minibubble7 bootstrap" rel="7"  />Boots-<br />trap</div>
@@ -1279,15 +1290,14 @@
         <!-- </section> -->
 
         <section id="footer" class="section11">
-            <div id="footer-content" class="centered content">
-                
-               
-               <div id="contacto">
-                   <a class="call-to-action" href="https://www.google.com.mx/?gws_rd=ssl">¡CONTRATA YA!</a>
-               </div>
 
-                
-                
+            <div id="footer-content" class="centered content">
+            <div id="call3" class="button raised green infotext4">
+              <a href="">
+                <p class="textocall1">¡CONTRATA YA!</p>
+                <paper-ripple fit style="color:white;"></paper-ripple>
+              </a>
+            </div>
                 <div class="social">
 
                     <a href="#" target="_blank" title=""><i class="icon fa fa-facebook"></i></a>
@@ -1297,6 +1307,12 @@
                     
 
                 </div>
+               
+                
+
+                
+                
+                
                 <div class="center kontakt">
                      CALLE HEGEL 141 PISO 4, CHAPULTEPEC MORALES, DEL. MIGUEL HIDALGO <br>
 DISTRITO FEDERAL, MÉXICO C.P 11570<a href="" > contacto@cpalumis.com</a> / +52 (55) 91 26 - 37 00
